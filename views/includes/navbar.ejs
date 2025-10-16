@@ -34,10 +34,12 @@
 
         <!-- Filter Dropdown -->
         <li class="nav-item dropdown">
+          <% if(currentUser) { %>
           <a class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold d-flex align-items-center dropdown-toggle"
              href="#" id="filterDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa-solid fa-filter me-2"></i> Filter
           </a>
+          <% } %>
           <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="filterDropdown">
             <li><a class="dropdown-item" href="?filter=price_low_high">Price: Low to High</a></li>
             <li><a class="dropdown-item" href="?filter=price_high_low">Price: High to Low</a></li>

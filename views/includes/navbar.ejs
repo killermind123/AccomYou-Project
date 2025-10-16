@@ -1,0 +1,76 @@
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-2">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center fw-bold text-danger" href="/listings">
+      <i class="fa-solid fa-globe me-2"></i> AccomYou
+    </a>
+
+    <!-- Mobile Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse custom-navbar-collapse" id="mainNavbar">
+      
+      <!-- Center Buttons -->
+      <ul class="navbar-nav mx-auto align-items-center gap-3">
+        <!-- Add Listing -->
+        <li class="nav-item">
+          <a class="btn btn-light border rounded-pill px-4 py-2 shadow-sm d-flex align-items-center fw-semibold"
+             href="/listings/new">
+            <i class="fa-solid fa-plus me-2"></i> become a host
+          </a>
+        </li>
+
+        <!-- Explore -->
+        <li class="nav-item">
+          <a href="/listings" 
+             class="btn btn-outline-dark rounded-pill px-4 py-2 fw-semibold d-flex align-items-center explore-btn">
+            <i class="fa-solid fa-compass me-2"></i> Explore
+          </a>
+        </li>
+
+        <!-- Filter Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold d-flex align-items-center dropdown-toggle"
+             href="#" id="filterDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-filter me-2"></i> Filter
+          </a>
+          <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="filterDropdown">
+            <li><a class="dropdown-item" href="?filter=price_low_high">Price: Low to High</a></li>
+            <li><a class="dropdown-item" href="?filter=price_high_low">Price: High to Low</a></li>
+            <li><a class="dropdown-item" href="?filter=rating">Rating</a></li>
+            <li><a class="dropdown-item" href="?filter=newest">Newest</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Right: User Actions -->
+      <ul class="navbar-nav ms-auto align-items-center gap-2">
+        <% if(!currentUser) { %>
+          <li class="nav-item">
+            <a class="btn btn-outline-dark rounded-pill px-3 py-1 mt-2" href="/login">Log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-danger rounded-pill px-3 py-1" href="/signup">Sign up</a>
+          </li>
+        <% } else { %>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle d-flex align-items-center border rounded-pill px-2 py-1"
+               href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bars me-2"></i>
+              <img src="/path-to-user-avatar.png" class="rounded-circle" style="height:32px; width:32px;">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item" href="/listings/userProfile">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="/logout">Log out</a></li>
+            </ul>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</nav>

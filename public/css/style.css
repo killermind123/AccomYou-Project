@@ -1,0 +1,723 @@
+body{
+     font-family: "Plus Jakarta Sans", sans-serif !important; 
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;   
+    }
+
+    .container{
+        flex:1;
+    }
+
+    
+
+.navbar{
+    height: 5rem ;
+    background-color: #f8f9fa;
+}
+
+.fa-globe{
+    height: 2rem;
+    color: crimson;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+/* Footer */
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+   
+}
+.f-info-links, 
+.f-info-socials, 
+.f-info-brand{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin: 1rem;;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #949ea9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: space-evenly;
+    
+
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+
+
+.card-img-top{
+     border-radius: 1rem !important;
+     width: 100% !important;
+     object-fit: cover !important;
+}
+
+
+.card-body{
+    padding:0 !important;
+}   
+
+.card-text p{
+    font-weight: 400;
+}
+
+.card-img-overlay{
+    opacity:0;
+}
+
+.card-img-overlay:hover{
+    opacity:0.2 !important;
+    background-color: white !important;
+}
+
+
+/* editing show page */
+
+.show-img{
+    
+    height:30vh !important;
+    
+}
+
+#map{
+    height: 400px;
+    width:80vh;
+    margin-bottom: 10px;
+}
+
+
+.navbar {
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.navbar-brand img {
+  transition: transform 0.2s;
+}
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+.nav-link {
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ff385c !important;
+}
+.dropdown-menu {
+  min-width: 220px;
+  border-radius: 1rem;
+}
+.dropdown-item:hover {
+  background-color: #f7f7f7;
+}
+.btn.rounded-pill {
+  transition: box-shadow 0.2s;
+}
+.btn.rounded-pill:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+
+.airbnb-footer {
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #484848;
+}
+
+.footer-link {
+  color: #484848;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.4rem;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #ff385c;
+  text-decoration: underline;
+}
+
+.footer-icon {
+  color: #484848;
+  transition: color 0.2s;
+}
+
+.footer-icon:hover {
+  color: #ff385c;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+.navbar {
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.nav-link {
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ff385c !important;
+}
+.btn.rounded-pill:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.dropdown-menu {
+  border-radius: 1rem;
+  min-width: 220px;
+}
+.dropdown-item:hover {
+  background-color: #f7f7f7;
+}
+.navbar-brand img {
+  transition: transform 0.2s;
+}
+.navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+.navbar .btn {
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: none;
+  transition: all 0.2s;
+}
+.navbar .btn:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .btn {
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: none;
+  transition: all 0.2s;
+}
+.navbar .btn:hover {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar .nav-link {
+  font-weight: 500;
+  color: #222;
+  margin: 0 0.3rem;
+}
+.navbar .nav-link:hover {
+  color: #ff385c; /* Airbnb pink accent */
+}
+.navbar .badge {
+  font-size: 0.65rem;
+}
+
+.navbar .nav-link.hover-bg:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar .badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.navbar .btn {
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: none;
+  transition: all 0.2s ease-in-out;
+}
+.navbar .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.navbar .badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+/* listings.css */
+
+/* Filters container */
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.filter {
+    text-align: center;
+    opacity: 0.8;
+    flex: 1 1 100px;
+    min-width: 80px;
+}
+
+.filter:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+/* Cards */
+.listing-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Responsive layout for cards */
+@media (max-width: 768px) {
+    .row.row-cols-lg-3.row-cols-md-2.row-cols-sm-1.g-4 {
+        row-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #filters {
+        flex-direction: row;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .filter {
+        flex: 0 0 auto;
+        margin: 0 0.5rem;
+    }
+
+    .listing-card img {
+        height: 150px;
+    }
+}
+
+
+  /* Responsive Map Container */
+  #map {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* Make it taller on smaller screens */
+  @media (max-width: 768px) {
+    #map {
+      height: 250px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    #map {
+      height: 200px;
+    }
+  }
+
+  /* ---------- Create Listing Page Styles ---------- */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+/* Facilities container */
+.facilities-container label {
+  background: #f8f9fa;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.facilities-container label:hover {
+  background: #e9ecef;
+}
+
+/* Mobile typography & spacing adjustments */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Button styling */
+.btn-dark {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+/* Add subtle form shadow on larger screens */
+@media (min-width: 768px) {
+  form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* ---------- Navbar Styling ---------- */
+
+/* Solid white dropdown background for mobile */
+.custom-navbar-collapse {
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Add subtle shadow when expanded (for mobile) */
+@media (max-width: 992px) {
+  .custom-navbar-collapse.show {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+}
+
+/* Fix dropdown background color */
+.navbar .dropdown-menu {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust toggle button look */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* --- Listing Page Styling (Desktop + Mobile) --- */
+
+.show-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.show-card {
+  border-radius: 12px;
+}
+
+.facility-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.facility-list li {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+.map-container {
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Review cards */
+.reviews-section .card {
+  border-radius: 10px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+  .show-img {
+    height: 300px;
+  }
+
+  .map-container {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .show-img {
+    height: 250px;
+  }
+
+  .map-container {
+    height: 250px;
+  }
+
+  h2, h4, h5 {
+    font-size: 1.25rem;
+  }
+
+  .card-body {
+    font-size: 0.95rem;
+  }
+
+  .facility-list li {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .show-img {
+    height: 200px;
+  }
+
+  .map-container {
+    height: 220px;
+  }
+
+  .reviews-section {
+    margin-top: 2rem;
+  }
+}
+
+/* Filters Section */
+#filters {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+#filters::-webkit-scrollbar {
+  height: 6px;
+}
+
+#filters::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.filter {
+  cursor: pointer;
+  color: #333;
+  min-width: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter i {
+  font-size: 1.4rem;
+}
+
+.filter p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.filter:hover {
+  color: #dc3545;
+  transform: translateY(-3px);
+}
+
+/* Card Styling */
+.listing-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+  background-color: #fff;
+}
+
+.listing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+  position: relative;
+  height: 220px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.25), transparent 70%);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #filters {
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  .filter i {
+    font-size: 1.2rem;
+  }
+
+  .filter p {
+    font-size: 0.75rem;
+  }
+
+  .image-container {
+    height: 180px;
+  }
+
+  .card-body {
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-container {
+    height: 160px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop Filters */
+#filters {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.filter {
+  text-align: center;
+  cursor: pointer;
+  color: #333;
+  min-width: 90px;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter i {
+  font-size: 1.4rem;
+}
+
+.filter p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.filter:hover {
+  color: #dc3545;
+  transform: translateY(-3px);
+}
+
+/* Card Styling */
+.listing-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.listing-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-container {
+  height: 220px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile Filter Button */
+.filter-btn {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  background-color: #f8f9fa;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+  background-color: #dc3545;
+  color: #fff;
+  border-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    height: 180px;
+  }
+
+  .card-body {
+    padding: 10px 12px;
+  }
+
+  .filter i {
+    font-size: 1.2rem;
+  }
+
+  .filter p {
+    font-size: 0.75rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
